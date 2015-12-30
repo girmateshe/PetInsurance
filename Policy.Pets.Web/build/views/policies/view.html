@@ -1,0 +1,31 @@
+<div style="width:50%">
+    <table class="table">
+        <tr>
+            <td><h3>Details for {{policy.policyNumber}}</h3></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>{{policy.name}}</td>
+        </tr>
+        <tr>
+            <td>policyNumber</td>
+            <td>{{policy.policyNumber}}</td>
+        </tr>
+        <tr>
+            <td>policyDate</td>
+            <td>{{policy.policyDate}}</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>{{policy.countryIsoCode}}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{policy.email}}</td>
+        </tr>
+    </table>
+    <div>
+        <a class="btn btn-primary pull-right" ui-sref="editPolicy({id:policy.id})">Edit</a>
+    </div>
+</div>    

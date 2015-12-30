@@ -1,0 +1,7 @@
+C:\dev\workspace\PetsInsurance\Common\bin\Debug\Common.dll
+C:\dev\workspace\PetsInsurance\Common\bin\Debug\Common.pdb
+C:\dev\workspace\PetsInsurance\Common\bin\Debug\Newtonsoft.Json.dll
+C:\dev\workspace\PetsInsurance\Common\bin\Debug\Newtonsoft.Json.xml
+C:\dev\workspace\PetsInsurance\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\dev\workspace\PetsInsurance\Common\obj\Debug\Common.dll
+C:\dev\workspace\PetsInsurance\Common\obj\Debug\Common.pdb

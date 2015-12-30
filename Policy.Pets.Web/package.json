@@ -1,0 +1,57 @@
+{
+    "name": "petinsurance",
+    "version": "1.0.0",
+    "description": "Pet insurance",
+    "main": "app.js",
+    "scripts": {
+        "test": "karma"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/girmateshe/PetsInsurance.git"
+    },
+    "author": "Teshe Gebremariam",
+    "license": "ISC",
+    "debug": true,
+    "minifyCss": false,
+    "minifyJs": false,
+    "bugs": {
+        "url": "https://github.com/girmateshe/PetsInsurance/issues"
+    },
+    "homepage": "https://github.com/girmateshe/PetsInsurance#readme",
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-angular-protractor": "0.0.6",
+        "gulp-autoprefixer": "0.0.6",
+        "gulp-bower-files": "~0.1.12",
+        "gulp-clean": "~0.2.4",
+        "gulp-concat": "~2.2.0",
+        "gulp-filter": "~1.0.2",
+        "gulp-htmlmin": "~0.1.2",
+        "gulp-if": "~2.0.0",
+        "gulp-inject": "~0.4.1",
+        "gulp-jshint": "~1.5.1",
+        "gulp-karma": "0.0.4",
+        "gulp-livereload": "^1.3.1",
+        "gulp-minify-css": "~0.3.0",
+        "gulp-rename": "~1.2.0",
+        "gulp-type": "0.3.0",
+        "gulp-uglify": "~1.5.1",
+        "gulp-uglifyjs": "~0.5.0",
+        "gulp-util": "~2.2.14",
+        "gulp-watch": "^0.6.2",
+        "jshint-stylish-ex": "~0.2.0",
+        "karma": "~0.12.0",
+        "karma-chrome-launcher": "^0.2.2",
+        "karma-coverage": "~0.2.4",
+        "karma-firefox-launcher": "^0.1.7",
+        "karma-jasmine": "~0.1.0",
+        "karma-junit-reporter": "^0.3.8",
+        "karma-phantomjs-launcher": "^0.2.1",
+        "merge-stream": "~0.1.6",
+        "phantomjs": "^1.9.19",
+        "protractor": "^3.0.0",
+        "q": "^1.0.1",
+        "run-sequence": "~0.3.6"
+    }
+}

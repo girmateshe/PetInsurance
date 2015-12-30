@@ -1,0 +1,34 @@
+<h3>All Pets in the policy</h3>
+
+<a ui-sref="policies" class="btn-primary btn-lg nodecoration pull-right" style="margin-bottom:20px; margin-left:20px">View Policies</a>
+<a ui-sref="addPetToPolicy({policyId:policyId})" class="btn-primary btn-lg nodecoration pull-right" style="margin-bottom:20px">Add New Pet</a>
+
+<table class="table" ng-show="pets != null && pets.length > 0">
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Date Of Birth</td>
+            <td>Enrollment Date</td>
+            <td>Policy Id</td>
+            <td>Breed Name</td>
+            <td>Archived</td>
+            <td></td>
+        </tr>
+        <tr ng-repeat="pet in pets">
+            <td>{{pet.id}}</td>
+            <td>{{pet.name}}</td>
+            <td>{{pet.dateOfBirth}}</td>
+            <td>{{pet.enrollmentDate}}</td>
+            <td>{{pet.petOwnerId}}</td>
+            <td>{{pet.breedName}}</td>
+            <td>{{pet.archived}}</td>
+            <td>
+                <a class="btn btn-primary" ui-sref="viewPet({id:pet.id})">View</a>
+                <a class="btn btn-danger" ng-click="vm.deletePetFromPolicy(pet)">Delete</a>
+            </td>
+        </tr>
+    </table>
+
+<div ng-show="pets == null || pets.length == 0">
+    Currently, there are no pets added to this policy - <a ui-sref="addPetToPolicy({policyId:policyId})" style="margin-bottom:20px">Add New Pet</a>
+</div>

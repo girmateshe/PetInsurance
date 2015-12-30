@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" data-framework="typescript">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy App</title>
+    <style>
+        [ng-cloak] {
+            display: none;
+        }
+    </style>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/assets/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/app.css">
+    <!-- endinject -->
+</head>
+    <body ng-app="policyApp" >
+        
+        <div style="width:80%; margin:auto">
+            <h1>Policy App</h1>
+
+            <div ui-view>
+
+            </div>
+
+            <div id="content"></div>            
+        </div>
+
+    <!-- inject:app:js -->
+    <script src="/app/jquery/dist/jquery.js"></script>
+    <script src="/app/angular/angular.js"></script>
+    <script src="/app/angular-route/angular-route.js"></script>
+    <script src="/app/angular-mocks/angular-mocks.js"></script>
+    <script src="/app/angular-resource/angular-resource.js"></script>
+    <script src="/app/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/app/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/app/services/BreedService.js"></script>
+    <script src="/app/services/CountryService.js"></script>
+    <script src="/app/services/HttpService.js"></script>
+    <script src="/app/services/PetsService.js"></script>
+    <script src="/app/services/PoliciesService.js"></script>
+    <script src="/app/services/services.js"></script>
+    <script src="/app/controllers/controllers.js"></script>
+    <script src="/app/controllers/HttpController.js"></script>
+    <script src="/app/controllers/PetsController.js"></script>
+    <script src="/app/controllers/PoliciesController.js"></script>
+    <script src="/app/configs/RouteConfig.js"></script>
+    <script src="/app/app.js"></script>
+    <!-- endinject -->
+</body>
+</html>

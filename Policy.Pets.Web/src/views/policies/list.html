@@ -1,0 +1,28 @@
+﻿    <h3>All Policies</h3>
+
+<a ui-sref="newPolicy" class="btn-primary btn-lg nodecoration pull-right" style="margin-bottom:20px">Add New Policy</a>
+
+<table class="table">
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Policy Number</td>
+            <td>Policy Date</td>
+            <td>Country Code</td>
+            <td>Email</td>
+            <td></td>
+        </tr>
+        <tr ng-repeat="policy in policies">
+            <td>{{policy.id}}</td>
+            <td>{{policy.name}}</td>
+            <td>{{policy.policyNumber}}</td>
+            <td>{{policy.policyDate}}</td>
+            <td>{{policy.countryIsoCode}}</td>
+            <td>{{policy.email}}</td>
+            <td>
+                <a class="btn btn-primary" ui-sref="viewPolicy({id:policy.id})">View</a>
+                <a class="btn btn-primary" ui-sref="pets({policyId:policy.id})">View Pets</a>
+                <a class="btn btn-danger" ng-click="vm.cancelPolicy(policy)">Delete</a>
+            </td>
+        </tr>
+    </table>

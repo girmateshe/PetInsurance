@@ -1,0 +1,40 @@
+﻿<div style="width:50%">
+    <table class="table">
+        <tr>
+            <td><h3>Details for {{pet.name}}</h3></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>{{pet.id}}</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>{{pet.name}}</td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+            <td>{{pet.dateOfBirth}}</td>
+        </tr>
+        <tr>
+            <td>Enrollment Date</td>
+            <td>{{pet.enrollmentDate}}</td>
+        </tr>
+        <tr>
+            <td>Policy Id</td>
+            <td>{{pet.petOwnerId}}</td>
+        </tr>
+        <tr>
+            <td>Breed Name</td>
+            <td>{{pet.breedName}}</td>
+        </tr>
+        <tr>
+            <td>Archived</td>
+            <td>{{pet.archived}}</td>
+        </tr>
+    </table>
+    <div>
+        <a class="btn btn-primary pull-right" ui-sref="editPet({id:pet.id})">Edit</a>
+    </div>
+
+</div>    

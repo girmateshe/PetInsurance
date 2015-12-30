@@ -1,0 +1,42 @@
+/bin
+/Common/bin/
+*.dll
+
+/Common/bin/Debug/Common.dll
+
+*.user
+
+*.cache
+
+ 
+Policy.Pet.Models/bin/
+ 
+Policy.Pet.Models/obj/
+ 
+Policy.Pet.Provider/bin/
+ 
+Policy.Pet.Provider/obj/
+ 
+Policy.Pet.Tests/bin/
+ 
+Policy.Pet.Tests/obj/
+ 
+Policy.Pet/bin/
+ 
+Policy.Pet/obj/
+ 
+Policy.Pets.IntegrationTests/bin/
+ 
+
+ build/
+ node_modules/
+ obj/
+ src/_all.js
+ *.js.map
+ src/app.js
+ src/app.js.map
+ src/configs/*.js
+ src/controllers/*.js
+ src/services/*.js
+ test/unit/services/*.js
+ vendor/
